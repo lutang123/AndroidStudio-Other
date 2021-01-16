@@ -1,0 +1,59 @@
+name: pro_time
+description: Projects time tracking app.
+
+version: 1.3.1+8
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  moor_flutter: ^2.0.0
+  path_provider: ^1.5.0
+  intl: ^0.16.0
+  flutter_colorpicker: ^0.2.6
+  auto_animated: ^1.2.3
+  flutter_slidable: ^0.5.4
+  auto_size_text: ^2.1.0
+  flutter_picker: ^1.1.0
+  fl_chart: ^0.5.1
+  flutter_local_notifications: ^0.8.4
+  get_it: ^3.0.3
+  rxdart: ^0.22.6
+  hive: ^1.1.1
+  hive_flutter: ^0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.7.1
+  moor_generator: ^2.1.1
+  flutter_launcher_icons: "^0.7.3"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/play.png
+    - assets/images/pause.png
+    - assets/images/stop.png
+  fonts:
+    - family: Cereal
+      fonts:
+        - asset: assets/fonts/AirbnbCerealMedium.ttf
+        - asset: assets/fonts/AirbnbCerealLight.ttf
+          weight: 100
+        - asset: assets/fonts/AirbnbCerealBook.ttf
+          weight: 300
+        - asset: assets/fonts/AirbnbCerealBold.ttf
+          weight: 600
+        - asset: assets/fonts/AirbnbCerealExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/AirbnbCerealBlack.ttf
+          weight: 900
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/images/icon.png"
